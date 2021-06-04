@@ -1,0 +1,8 @@
+<testsuite failures="0" name="src/test/java/com/wellsfargo/featurefiles/karate16_JsFunctionalCall.feature" skipped="0" tests="1" time="0.314216">
+  <testcase classname="src.test.java.com.wellsfargo.featurefiles.karate16_JsFunctionalCall" name="js function call test case1" time="0.314216">
+    <system-out>* def f1 = function(){ return 10; } ....................................... passed
+* def f2 = ................................................................ passed
+* print f1() .............................................................. passed
+* f2("hello") ............................................................. passed</system-out>
+  </testcase>
+</testsuite>

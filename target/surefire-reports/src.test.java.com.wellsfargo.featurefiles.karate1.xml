@@ -1,0 +1,18 @@
+<testsuite failures="0" name="src/test/java/com/wellsfargo/featurefiles/karate1.feature" skipped="0" tests="2" time="0.096888">
+  <testcase classname="src.test.java.com.wellsfargo.featurefiles.karate1" name="Karate TestCase 1" time="0.087868">
+    <system-out>Given def a = 10 .......................................................... passed
+And def b = 20 ............................................................ passed
+When def c = a + b ........................................................ passed
+Then assert c == 30 ....................................................... passed</system-out>
+  </testcase>
+  <testcase classname="src.test.java.com.wellsfargo.featurefiles.karate1" name="Karate TestCase 2" time="0.00902">
+    <system-out>Given def a = 10 .......................................................... passed
+And def b = 20 ............................................................ passed
+When def c = a + b ........................................................ passed
+Then assert c == 30 ....................................................... passed
+* def a = 10 .............................................................. passed
+* def b = 20 .............................................................. passed
+* def c = a + b ........................................................... passed
+* assert c == 30 .......................................................... passed</system-out>
+  </testcase>
+</testsuite>

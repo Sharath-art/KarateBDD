@@ -1,0 +1,23 @@
+<testsuite failures="0" name="src/test/java/com/wellsfargo/featurefiles/karate11_customValidation.feature" skipped="0" tests="1" time="0.305221">
+  <testcase classname="src.test.java.com.wellsfargo.featurefiles.karate11_customValidation" name="TestCase 5 reg exp" time="0.305221">
+    <system-out>* def a = "12" ............................................................ passed
+* def b = "uppi karate som" ............................................... passed
+* def c = "KARATE" ........................................................ passed
+* def c1 = "karate" ....................................................... passed
+* def c2 = "Karate" ....................................................... passed
+* def d = "100.01" ........................................................ passed
+* def e = "karate bdd" .................................................... passed
+* def e1 = "cucumber bdd" ................................................. passed
+* match a == "#regex \\d+" ................................................ passed
+* match d == "#regex \\d+\\.\\d+" ......................................... passed
+* match c == "#regex [A-Z]+" .............................................. passed
+* match c1 == "#regex [a-z]+" ............................................. passed
+* match c2 == "#regex [A-Z][a-z]+" ........................................ passed
+* match b == "#regex ([A-Za-z]+\\s?)+" .................................... passed
+* match b == "#regex (\\w+\\s?)+" ......................................... passed
+* match b == "#regex (^uppi\.*)" .......................................... passed
+* match b == "#regex (\.*som$)" ........................................... passed
+* match e == "#regex (karate|cucumber) bdd" ............................... passed
+* match e1 == "#regex (karate|cucumber) bdd" .............................. passed</system-out>
+  </testcase>
+</testsuite>

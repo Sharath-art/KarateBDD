@@ -1,0 +1,7 @@
+<testsuite failures="0" name="src/test/java/com/wellsfargo/featurefiles/karate07_readfromfile.feature" skipped="0" tests="1" time="1.270838">
+  <testcase classname="src.test.java.com.wellsfargo.featurefiles.karate07_readfromfile" name="read from  file testcase1" time="1.270838">
+    <system-out>* def xml = read("tempConver_input.xml") .................................. passed
+* print xml ............................................................... passed
+* match xml //CelsiusToFahrenheit/Celsius == 39 ........................... passed</system-out>
+  </testcase>
+</testsuite>

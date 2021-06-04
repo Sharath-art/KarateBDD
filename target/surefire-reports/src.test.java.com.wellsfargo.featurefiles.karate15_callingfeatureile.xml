@@ -1,0 +1,12 @@
+<testsuite failures="1" name="src/test/java/com/wellsfargo/featurefiles/karate15_callingfeatureile.feature" skipped="0" tests="1" time="1.951205">
+  <testcase classname="src.test.java.com.wellsfargo.featurefiles.karate15_callingfeatureile" name="calling TestCase 1" time="1.951205">
+    <failure message="karate15_callingfeatureile.feature:11 - path: $.response.title, actual: null, expected: 'foo', reason: actual json-path does not exist">* def result = call read("karate14_calledfeatureile.feature@called1") ..... passed
+* print result ............................................................ passed
+* print result.response ................................................... passed
+* match  result.response.title == "foo" ................................... failed
+
+Stack Trace:
+com.intuit.karate.exception.KarateException: karate15_callingfeatureile.feature:11 - path: $.response.title, actual: null, expected: 'foo', reason: actual json-path does not exist&#13;
+	at ✽.* match  result.response.title == "foo" (karate15_callingfeatureile.feature:11)</failure>
+  </testcase>
+</testsuite>

@@ -1,0 +1,15 @@
+<testsuite failures="1" name="src/test/java/karate03.feature" skipped="0" tests="1" time="0.597792">
+  <testcase classname="src.test.java.karate03" name="performing xml validation 2" time="0.597792">
+    <failure message="karate03.feature:36 - tried to access field com.sun.org.apache.xerces.internal.dom.ParentNode.firstChild from class com.sun.org.apache.xerces.internal.dom.DocumentImplAccAccess">Given def xml = ........................................................... passed
+* print xml ............................................................... passed
+* print xml/info/id ....................................................... passed
+* print xml.info.id ....................................................... passed
+* match xml/info/tool contains "&lt;name&gt;Karate&lt;/name&gt;&lt;version&gt;0.9.6&lt;/version&gt;" . failed
+
+Stack Trace:
+com.intuit.karate.exception.KarateException: karate03.feature:36 - tried to access field com.sun.org.apache.xerces.internal.dom.ParentNode.firstChild from class com.sun.org.apache.xerces.internal.dom.DocumentImplAccAccess&#13;
+	at ✽.* match xml/info/tool contains "&lt;name&gt;Karate&lt;/name&gt;&lt;version&gt;0.9.6&lt;/version&gt;" (karate03.feature:36)&#13;
+
+* match xml contains 'Karate' ............................................. skipped</failure>
+  </testcase>
+</testsuite>

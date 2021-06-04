@@ -1,0 +1,16 @@
+<testsuite failures="1" name="src/test/java/com/wellsfargo/featurefiles/karate18_dbInteractions.feature" skipped="0" tests="1" time="1.819482">
+  <testcase classname="src.test.java.com.wellsfargo.featurefiles.karate18_dbInteractions" name="delete stmt TestCase 4" time="1.819482">
+    <failure message="karate18_dbInteractions.feature:51 - assert evaluated to false: rowsaffected &gt;= 1">* def db = Java.type('com.wellsfargo.utils.MyDBUtils') .................... passed
+* def rowsaffected = db.deleteStatement("delete from tools where toolid=2110") . passed
+* print rowsaffected ...................................................... passed
+* assert rowsaffected &gt;= 1 ................................................ failed
+
+Stack Trace:
+com.intuit.karate.exception.KarateException: karate18_dbInteractions.feature:51 - assert evaluated to false: rowsaffected &gt;= 1&#13;
+	at ✽.* assert rowsaffected &gt;= 1 (karate18_dbInteractions.feature:51)&#13;
+
+* def rows = db.selectStatement("select * from tools where toolid=2110") .. skipped
+* print rows .............................................................. skipped
+* match rows !contains "sample3" .......................................... skipped</failure>
+  </testcase>
+</testsuite>
